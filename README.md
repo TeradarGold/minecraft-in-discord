@@ -10,6 +10,8 @@ To Install:
 
 3. After you input these, some dependencies should begin to install, please wait, the command prompt window will automatically close.
 
-4. Run the file "start.bat" to start your Discord Bot. In the terminal that opens, you should receive a link to log in to your microsoft minecraft java account.
+4. In the Discord Bot Developer Portal, go to the Bot section and enable all "Privileged Gateway Intents". Then give your bot the 'bot' scope and the 'Administrator' permission in the OAuth > URL Generator section.
 
-5. Once logged in, you can head over to the discord channel which you specified and type !help. In order to log the bot onto a server of your choice, make sure to update the version as well as server ip, then do !disconnect followed by !connect
+5. Run the file "start.bat" to start your Discord Bot. In the terminal that opens, you should receive a link to log in to your microsoft minecraft java account.
+
+6. Once logged in, you can head over to the discord channel which you specified and type !help. In order to log the bot onto a server of your choice, make sure to update the version as well as server ip, then do !disconnect followed by !connect
