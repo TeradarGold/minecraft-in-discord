@@ -1,5 +1,5 @@
 # minecraft-in-discord
-Control a Minecraft Java account through a Discord Bot. Only supports Java accounts that use Microsoft login.
+Control a Minecraft Java account through a Discord Bot. Only supports Microsoft login and Java edition.
 
 To Install:
 1. Create a new Discord server
