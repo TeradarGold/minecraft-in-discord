@@ -15,3 +15,7 @@ To Install:
 5. Run the file "start.bat" to start your Discord Bot. In the terminal that opens, you should receive a link to log in to your microsoft minecraft java account.
 
 6. Once logged in, you can head over to the discord channel which you specified and type !help. In order to log the bot onto a server of your choice, make sure to update the version as well as server ip, then do !disconnect followed by !connect
+
+
+For linux users: you must create a config.json file
+https://pastebin.com/YxcZevsX
