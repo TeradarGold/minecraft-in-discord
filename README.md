@@ -2,6 +2,8 @@
 Control a Minecraft Java account through a Discord Bot. Only supports Microsoft login and Java edition.
 
 To Install:
+https://youtu.be/CAY4Bu00P58
+
 1. Create a new Discord server
 
 2. Go to https://discord.com/developers/applications and create a Discord Bot. Use this guide: https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot
