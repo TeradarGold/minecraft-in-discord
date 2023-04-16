@@ -1,0 +1,30 @@
+For linux:
+1. Make sure to delete these extra lines
+1. Create a file called firstTimeRun.sh by copying the code below, typing in 'touch firstTimeRun.sh', and pasting the code in via 'nano firstTimeRun.sh'
+2. type in: chmod +x firstTimeRun.sh
+3. type in: ./firstTimeRun.sh
+
+#!/bin/bash
+
+read -p "Enter your webhook: " webhook
+read -p "Enter your token: " token
+read -p "Enter your channel: " channel
+
+{
+  echo {
+  echo   \"discord\": {
+  echo     \"webhook\": \"$webhook\",
+  echo     \"token\": \"$token\",
+  echo     \"channel\": \"$channel\"
+  echo   },
+  echo   \"version\": \"1.8\",
+  echo   \"serverip\": \"play.example.com\",
+  echo   \"chat\": true,
+  echo   \"autoRelog\": false,
+  echo   \"relogDelay\": 20
+  echo }
+} > config.json
+
+echo Configuration saved to config.json.
+
+sudo npm install
