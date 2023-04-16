@@ -1,7 +1,7 @@
 # minecraft-in-discord
 Control a Minecraft Java account through a Discord Bot. Only supports Microsoft login and Java edition.
 
-To Install:
+Tutorial for installation on raspberry pi:
 https://youtu.be/CAY4Bu00P58
 
 1. Create a new Discord server
